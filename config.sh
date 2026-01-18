@@ -11,12 +11,13 @@ backup_and_copy() {
     fi
 
     echo "Copying $src to $dest"
-    cp "$src" "$dest"
+    cp  "$src" "$dest"
 }
 
 backup_and_copy .vimrc "$HOME/.vimrc"
 backup_and_copy .bashrc "$HOME/.bashrc"
 backup_and_copy .tmux.conf "$HOME/.tmux.conf"
+backup_and_copy init.lua  "$HOME/.config/nvim/"
 
 echo "All configs deployed"
 

@@ -17,6 +17,7 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set autoindent
 
 " encoding
 set encoding=utf-8
