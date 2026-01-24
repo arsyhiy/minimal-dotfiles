@@ -48,4 +48,7 @@ Everything I need is included in the standard Python distribution.
 ```bash
 ./install.sh
 ./config.sh
+```
 
+
+NOTE: the main purpose of this repo is to make minimal everywhere i can use workflow type
